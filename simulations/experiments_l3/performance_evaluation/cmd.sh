@@ -1,0 +1,1 @@
+../../detnetmod -r 0 -m -u Cmdenv -n ../../../src:../..:../../../../inet/src:../../../../inet/examples:../../../../inet/tutorials:../../../../inet/showcases:../../../../nesting/simulations:../../../../nesting/src --image-path=../../../../inet/images -l ../../../src/detnetmod -l ../../../../inet/src/INET -l ../../../../nesting/src/nesting $1

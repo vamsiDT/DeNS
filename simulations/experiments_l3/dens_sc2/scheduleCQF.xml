@@ -1,0 +1,208 @@
+<?xml version="1.0" ?>
+<schedule>
+	<defaultcycle>100us</defaultcycle>
+	<switch name="routerA">
+		<cycle>100us</cycle>
+		<port id="0">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="routerB">
+		<cycle>100us</cycle>
+		<port id="1">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchA">
+		<cycle>100us</cycle>
+		<port id="13">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchC">
+		<cycle>100us</cycle>
+		<port id="0">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="1">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="2">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="3">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="4">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="5">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="6">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="7">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="8">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="9">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="4">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="10">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="11">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111101</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+</schedule>

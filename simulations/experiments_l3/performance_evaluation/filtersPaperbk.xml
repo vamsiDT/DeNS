@@ -1,0 +1,26 @@
+<filters>
+  <experiment id="default">
+	<filter srcAddress='hostPriority[0]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[1]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[2]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[3]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[4]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[5]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[6]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[7]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[8]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[9]%vlan0' gate='0'/>
+	<filter srcAddress='hostX[0]%vlan0' gate='0'/>
+	<filter srcAddress='hostX[1]%vlan0' gate='2'/>
+	<filter srcAddress='sinkOther[0]' gate='1'/>
+	<filter srcAddress='sinkOther[1]' gate='1'/>
+	<filter srcAddress='sinkOther[2]' gate='1'/>
+	<filter srcAddress='sinkOther[3]' gate='1'/>
+	<filter srcAddress='sinkOther[4]' gate='1'/>
+	<filter srcAddress='sinkOther[5]' gate='1'/>
+	<filter srcAddress='sinkOther[6]' gate='1'/>
+	<filter srcAddress='sinkOther[7]' gate='1'/>
+	<filter srcAddress='sinkOther[8]' gate='1'/>
+	<filter srcAddress='sinkOther[9]' gate='1'/>
+  </experiment>
+</filters>

@@ -1,0 +1,8 @@
+<config>
+	<interface hosts='**' address='10.x.x.x' netmask='255.x.x.x'/>
+	<route hosts='H0' destination='S0' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='H1' destination='S1' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='H2' destination='S2' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='H3' destination='S3' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='H4' destination='S4' netmask='255.255.255.255' interface='vlan0'/>
+</config>

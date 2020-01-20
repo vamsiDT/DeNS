@@ -1,0 +1,154 @@
+<?xml version="1.0" ?>
+<schedule>
+	<defaultcycle>100us</defaultcycle>
+	<host name="priority0">
+		<cycle>100us</cycle>
+		<entry>
+			<!-- us -->
+			<start>15us</start>
+			<queue>7</queue>
+			<vid>1</vid>
+			<dest>00:00:00:00:00:06</dest>
+			<!-- byte -->
+			<size>350</size>
+		</entry>
+	</host>
+	<host name="priority1">
+		<cycle>100us</cycle>
+		<entry>
+			<!-- us -->
+			<start>10us</start>
+			<queue>7</queue>
+			<vid>2</vid>
+			<dest>00:00:00:00:00:07</dest>
+			<!-- byte -->
+			<size>350</size>
+		</entry>
+	</host>
+	<host name="priority2">
+		<cycle>3.5us</cycle>
+		<entry>
+			<!-- us -->
+			<start>2us</start>
+			<queue>7</queue>
+			<vid>3</vid>
+			<dest>00:00:00:00:00:08</dest>
+			<!-- byte -->
+			<size>350</size>
+		</entry>
+	</host>
+	<switch name="switchA">
+		<cycle>100us</cycle>
+		<port id="5">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="6">
+			<entry>
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="7">
+			<entry>
+				<length>48us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>52us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchB">
+		<cycle>100us</cycle>
+		<port id="0">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="1">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+		<port id="2">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+			<entry>
+				<length>50us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchC">
+		<cycle>100us</cycle>
+		<port id="1">
+			<entry>
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchD">
+		<cycle>100us</cycle>
+		<port id="1">
+			<entry>
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchE">
+		<cycle>100us</cycle>
+		<port id="1">
+			<entry>
+				<length>50us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+		</port>
+	</switch>
+</schedule>

@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<schedule>
+	<defaultcycle>100us</defaultcycle>
+	<switch name="routerA">
+		<cycle>200us</cycle>
+		<port id="0">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>150us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchA">
+		<cycle>200us</cycle>
+		<port id="12">
+			<entry>
+				<!-- us -->
+				<length>50us</length>
+				<bitvector>00000001</bitvector>
+			</entry>
+			<entry>
+				<!-- us -->
+				<length>150us</length>
+				<bitvector>11111110</bitvector>
+			</entry>
+		</port>
+	</switch>
+</schedule>

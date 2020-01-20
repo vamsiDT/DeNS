@@ -1,0 +1,14 @@
+<filters>
+  <experiment id="default">
+	<filter srcAddress='hostPriority[0]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[1]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[2]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[3]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[4]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[5]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[6]%vlan0' gate='0'/>
+	<filter srcAddress='hostPriority[7]%vlan0' gate='0'/>
+	<filter srcAddress='hostX[0]%vlan0' gate='0'/>
+	<filter srcAddress='hostX[1]%vlan0' gate='0'/>
+  </experiment>
+</filters>

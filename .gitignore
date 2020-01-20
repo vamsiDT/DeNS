@@ -1,0 +1,13 @@
+/.computed/
+out/
+*.so
+*.pcap
+*.csv
+*.sca
+*.vec
+*.vci
+*.elog
+*.txt
+*.log
+*.o
+*.o.d

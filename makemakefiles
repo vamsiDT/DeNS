@@ -1,0 +1,14 @@
+#
+# Usage:
+#    make -f makemakefiles
+# or, for Microsoft Visual C++:
+#    nmake -f makemakefiles MMOPT=-n
+#
+
+MAKEMAKE=opp_makemake $(MMOPT)
+
+INET_PROJ=../inet
+NESTING_PROJ=../nesting
+
+all:
+	cd src && $(MAKEMAKE) --make-so -f --deep -KINET_PROJ=../../inet -KNESTING_PROJ=../../nesting -DINET_IMPORT -I$$\(INET_PROJ\)/src -L$$\(INET_PROJ\)/src -L$$\(NESTING_PROJ\)/src -lINET$$\(D\) -lnesting$$\(D\)

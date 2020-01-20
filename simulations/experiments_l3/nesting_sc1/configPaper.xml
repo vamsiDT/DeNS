@@ -1,0 +1,25 @@
+<config>
+	<interface hosts='**' address='10.x.x.x' netmask='255.x.x.x'/>
+	<route hosts='hostPriority[0]' destination='sinkPriority[0]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[1]' destination='sinkPriority[1]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[2]' destination='sinkPriority[2]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[3]' destination='sinkPriority[3]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[4]' destination='sinkPriority[4]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[5]' destination='sinkPriority[5]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[6]' destination='sinkPriority[6]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[7]' destination='sinkPriority[7]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[8]' destination='sinkPriority[8]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[9]' destination='sinkPriority[9]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostX[0]' destination='sinkX[0]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostX[1]' destination='sinkX[1]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[0]' destination='sinkOther[0]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[1]' destination='sinkOther[1]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[2]' destination='sinkOther[2]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[3]' destination='sinkOther[3]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[4]' destination='sinkOther[4]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[5]' destination='sinkOther[5]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[6]' destination='sinkOther[6]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[7]' destination='sinkOther[7]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[8]' destination='sinkOther[8]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostOther[9]' destination='sinkOther[9]' netmask='255.255.255.255' interface='vlan0'/>
+</config>

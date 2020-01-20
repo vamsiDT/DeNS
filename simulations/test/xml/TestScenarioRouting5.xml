@@ -1,0 +1,17 @@
+<filteringDatabases>
+	<filteringDatabase id="switchA">
+	    <static>
+	        <forward>
+	        	<individualAddress macAddress="00-00-00-00-00-02" port="1" />
+	        	<!-- Forward packets addressed to backupServer to switchB -->
+	        </forward>
+	    </static>
+	</filteringDatabase>
+	<filteringDatabase id="switchB">
+	    <static>
+	        <forward>
+	        	<individualAddress macAddress="00-00-00-00-00-02" port="0" />
+	        </forward>
+	    </static>
+	</filteringDatabase>
+</filteringDatabases>

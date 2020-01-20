@@ -1,0 +1,5 @@
+<config>
+	<interface hosts="non-priority" address="10.0.0.1" netmask="255.255.x.x"/>
+	<interface hosts="**" address="10.0.x.x" netmask="255.255.x.x"/>
+	<route hosts="nonpriority1" interface="detnet0" destination="*" gateway="*"/>
+</config>

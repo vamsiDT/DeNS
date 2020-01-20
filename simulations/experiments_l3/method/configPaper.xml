@@ -1,0 +1,11 @@
+<config>
+	<interface hosts='**' address='10.x.x.x' netmask='255.x.x.x'/>
+	<route hosts='hostPriority[0]' destination='sinkPriority[0]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[1]' destination='sinkPriority[1]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[2]' destination='sinkPriority[2]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[3]' destination='sinkPriority[3]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostPriority[4]' destination='sinkPriority[4]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostX[0]' destination='sinkX[0]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostX[1]' destination='sinkX[1]' netmask='255.255.255.255' interface='vlan0'/>
+	<route hosts='hostX[2]' destination='sinkX[2]' netmask='255.255.255.255' interface='vlan0'/>
+</config>

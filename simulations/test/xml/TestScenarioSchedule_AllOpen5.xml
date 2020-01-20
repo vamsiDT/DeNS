@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<schedule>
+	<defaultcycle>400us</defaultcycle>
+	<host name="priority0">
+		<cycle>400us</cycle>
+		<entry>
+			<!-- us -->
+			<start>10us</start>
+			<queue>7</queue>
+			<dest>00:00:00:00:00:02</dest>
+			<!-- byte -->
+			<size>354</size>
+		</entry>
+	</host>
+	<switch name="switchA">
+		<cycle>400us</cycle>
+		<port id="1">
+			<entry>
+				<!-- us -->
+				<length>400us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+		</port>
+	</switch>
+	<switch name="switchB">
+		<cycle>400us</cycle>
+		<port id="0">
+			<entry>
+				<!-- us -->
+				<length>400us</length>
+				<bitvector>11111111</bitvector>
+			</entry>
+		</port>
+	</switch>
+</schedule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<schedules>
+	<entry>
+		<length>500</length>
+		<schedule>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="TestScenarioSchedule1.xml"/>
+		</schedule>
+		<routing>
+			<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="TestScenarioRouting1.xml"/>
+		</routing>
+	</entry>
+</schedules>
