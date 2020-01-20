@@ -11,3 +11,4 @@ out/
 *.log
 *.o
 *.o.d
+*.dat
