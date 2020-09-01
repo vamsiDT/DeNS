@@ -41,3 +41,16 @@ All the three projects should now appear in the Project Explorer
 # Examples
 * Right click ``detnetmod/simulations/experiments_l3/dens_sc2/paper2.ini`` [paper2.ini](https://github.com/vamsiDT/DeNS/blob/master/simulations/experiments_l3/dens_sc2/paper2.ini) and ``Run As -> OMNeT++ Simulation``. This opens the graphical interface for the simulation
 * [paper2.ini](https://github.com/vamsiDT/DeNS/blob/master/simulations/experiments_l3/dens_sc2/paper2.ini) contains the configurations used in the paper. Certain knowledge about ini configuration in OMNeT++ is required and helps in easy understanding of paper2.ini and navation into different modules used in configuration. Further details on modules and configuration files will be opened soon through Wiki page in this repository.
+
+# Citation
+
+```
+@inproceedings{addanki2020moving,
+  title={Moving a step forward in the quest for Deterministic Networks (DetNet)},
+  author={Addanki, Vamsi and Iannone, Luigi},
+  booktitle={2020 IFIP Networking Conference (Networking)},
+  pages={458--466},
+  year={2020},
+  organization={IEEE}
+}
+```
