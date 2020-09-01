@@ -13,8 +13,8 @@ Finally your directory should like:
 ```
 <workspace>
 |___ INET
-|___ DeNS
-|___ NeSTiNg
+|___ detnetmod
+|___ nesting
 ```
 
 # Import
@@ -32,3 +32,7 @@ All the three projects should now appear in the Project Explorer
 * Under ``Project References``, select INET and nesting, ``Apply and Close`` (__*Important*__)
 * Each project can be set to ``release`` or ``debug`` build by right click and ``Build Configurations -> Set Active``
 * Right click each project (in the order INET, NeSTiNg, DeNS) and ``Build Project``
+
+# Examples
+* Right click ``detnetmod/simulations/experiments_l3/dens_sc2/paper2.ini`` [paper2.ini](https://github.com/vamsiDT/DeNS/blob/master/simulations/experiments_l3/dens_sc2/paper2.ini) and ``Run As -> OMNeT++ Simulation``. This opens the graphical interface for the simulation
+* [paper2.ini](https://github.com/vamsiDT/DeNS/blob/master/simulations/experiments_l3/dens_sc2/paper2.ini) contains the configurations used in the paper. Certain knowledge about ini configuration in OMNeT++ is required and helps in easy understanding of paper2.ini and navation into different modules used in configuration. Further details on modules and configuration files will be opened soon through Wiki page in this repository.
