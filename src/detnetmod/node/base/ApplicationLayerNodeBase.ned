@@ -37,7 +37,7 @@ module ApplicationLayerNodeBase extends NetPerfDetnet
     submodules:
         app[numApps]: <> like IApp {
             parameters:
-                @display("p=721.4563,-27.56125,row,150");
+                @display("p=621.4563,40.56125,row,150");
         }
         at: MessageDispatcher if numApps!=0 {
             parameters:
@@ -45,7 +45,7 @@ module ApplicationLayerNodeBase extends NetPerfDetnet
         }
 
         setFlowIdApp[numApps]: SetKind if numApps!=0 && setKindApp {
-            @display("p=950.05255,-27.56125;i=block/star");
+            @display("p=950.05255,40.56125;i=block/star");
         }
     connections allowunconnected:
         for i=0..numApps-1 {

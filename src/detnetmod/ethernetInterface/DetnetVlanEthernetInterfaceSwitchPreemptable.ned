@@ -42,7 +42,7 @@ module DetnetVlanEthernetInterfaceSwitchPreemptable extends InterfaceEntry like 
         string interfaceTableModule;
         string address = default("auto"); // MAC address
         string fcsMode @enum("declared","computed") = default("declared");
-        @display("i=block/ifcard;bgl=2;bgb=969.696,544.908");
+        @display("i=block/ifcard;bgl=2;bgb=600.8275,544.88");
         *.interfaceTableModule = default(absPath(interfaceTableModule));
         *.fcsMode = fcsMode;
         bool framePreemptionDisabled = default(true);

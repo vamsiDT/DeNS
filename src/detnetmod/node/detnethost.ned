@@ -25,7 +25,7 @@ import nesting.ieee8021q.clock.IdealClock;
 module DetnetHost extends ApplicationLayerNodeBase
 {
     parameters:
-        @display("i=device/pc2");
+        @display("i=device/pc2;bgb=1365.0925,813.86755");
         @figure[submodules];
         forwarding = default(false);  // disable routing by default
         ipv4.arp.proxyArpInterfaces = default(""); // proxy arp is disabled on hosts by default

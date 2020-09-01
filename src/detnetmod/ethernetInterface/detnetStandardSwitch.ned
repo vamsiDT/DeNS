@@ -44,7 +44,7 @@ module detnetStandardSwitch
 {
     parameters:
         @networkNode();
-        @display("i=device/switch;bgb=2549.7239,1253.9625");
+        @display("i=device/switch;bgb=1665.8324,1250.97");
         *.interfaceTableModule = default(absPath(".interfaceTable"));
         *.macTableModule = default(absPath(".macTable"));
         string fcsMode @enum("declared","computed") = default("declared");
