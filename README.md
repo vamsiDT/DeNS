@@ -12,7 +12,13 @@ DeNS is a **De**terministic **N**etworks **S**imulator, based on [OMNET++](http:
 * Download and install OMNeT++ version 5.5.1. ([Installation guide](https://omnetpp.org/documentation/))
 * ``cd`` to your OMNeT++ directory and ``$ source setenv`` to add omnetpp to ``PATH``
 * Download [INET version 4.1.0](https://inet.omnetpp.org/Download.html). Alternatively, clone the INET repository and checkout tag v4.1.0 ``$ git clone --branch v4.1.0 --depth 1 https://github.com/inet-framework/inet.git``
-* Clone NeSTiNg resposity ``$ git clone https://gitlab.com/ipvs/nesting.git``
+* Clone NeSTiNg resposity. *checkout the following commit to avoid compilation errors with DeNS* 
+
+```
+$ git clone https://gitlab.com/ipvs/nesting.git
+
+$ git checkout 2cbd94655f8cc63816b96e31732b8dcf99511378
+```
 * Clone DeNS reposity ``$ git clone https://github.com/vamsiDT/DeNS.git``
 Finally your directory should like:
 ```
